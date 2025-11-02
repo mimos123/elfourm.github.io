@@ -215,10 +215,10 @@
     justify-content: space-between; /* Additional padding to ensure there is space at the top if needed */
 }
     </style>
-</head>
-<body class="font-sans antialiased dark:bg-black dark:text-white/50">
-    <div class="bg-gray-50 text-black/50 dark:bg-black dark:text-white/50">
-        <header class="bg-white p-4 text-white flex items-center justify-between w-full shadow-md">
+    </head>
+    <body class="font-sans antialiased bg-white text-black">
+        <div class="bg-white text-black">
+            <header class="bg-white p-4 text-black flex items-center justify-between w-full shadow-md">
             <img src="{{ asset('logo1.png') }}" alt="Logo" class="h-8">
             <nav class="lg:flex gap-4">
                 <a href="#" class="text-gray-500 hover:text-black hover:font-bold">Home</a>
@@ -255,7 +255,7 @@
                 </div>
             </div>
         </div>
-        <div class="overflow-hidden mt-5 shadow-md">
+    <div class="overflow-hidden mt-5 shadow-md bg-white">
             <div class="flex justify-around items-center px-4 animate-marquee">
                 <div class="flex items-center space-x-2 p-4">
                     <i class="fas fa-code fa-3x text-blue-700"></i>
